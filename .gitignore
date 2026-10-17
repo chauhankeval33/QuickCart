@@ -1,0 +1,28 @@
+# Data — never commit
+quickcart_data/
+*.db
+*.csv
+!outputs/tickets_classified.csv
+*.json
+!app/**/*.json
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large model files (keep anything over 50 MB out of Git)
+*.pt
+*.h5
+*.joblib.big
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
