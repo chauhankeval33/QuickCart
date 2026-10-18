@@ -13,6 +13,14 @@ Results for B1–B5, including explain() before/after.
 **Written question:** MongoDB vs PostgreSQL for this data?
 
 ## Part C — EDA and feature engineering
+### 3. Delivery Drivers
+
+1. **Distance:** Average delivery time increased from **20.24 minutes** for orders within 0–2 km to **36.27 minutes** for orders above 5 km — a difference of **16.03 minutes**.
+2. **Store workload:** Average delivery time increased from **20.69 minutes** with 1–10 open orders to **27.56 minutes** with 21–29 open orders — a difference of **6.87 minutes**.
+3. **Rain:** Rainy orders averaged **30.30 minutes**, compared with **23.69 minutes** during non-rainy conditions — an increase of **6.61 minutes**.
+
+**Conclusion:** Distance showed the largest difference in average delivery time, followed by store workload and rain. These results show associations, not proof of causation.
+
 ### Data quality report
 | Issue | Table.column | Count | How handled |
 | --- | --- | --- | --- |
