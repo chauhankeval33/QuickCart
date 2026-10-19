@@ -1,0 +1,401 @@
+ticket_id,customer_id,created_at,text,category,sentiment,urgency,summary,status
+T0001,C03038,2026-06-01T15:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0002,C00572,2026-06-01T13:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0003,C00357,2026-05-29T02:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0004,C00123,2026-05-13T00:00:00,"Love the app, fastest groceries in Ahmedabad.",praise,positive,1,Loves app; fastest groceries in Ahmedabad,ok
+T0005,C02070,2026-04-25T12:00:00,Paid for 7 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 7 items, received only 3; paneer missing",ok
+T0006,C02933,2026-05-11T01:00:00,"Love the app, fastest groceries in Jaipur. pls jaldi karo",praise,positive,1,"Loves app, fastest groceries in Jaipur",ok
+T0007,C01719,2026-05-23T05:00:00,"Love the app, fastest groceries in Jaipur.",praise,positive,1,Loves app; fastest groceries in Jaipur,ok
+T0008,C01140,2026-05-12T22:00:00,"Delivery was super late today, groceries arrived after 72 mins.",late_delivery,negative,3,Delivery 72 minutes late,ok
+T0009,C01394,2026-05-26T03:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0010,C00419,2026-06-12T13:00:00,Why is delivery in Surat so slow now? Waited 89 minutes for milk. yaar kya chal raha hai,late_delivery,negative,3,Delivery in Surat took 89 minutes; slow service,ok
+T0011,C03472,2026-05-18T04:00:00,"Vegetables were rotten, tomatoes completely squashed. yaar kya chal raha hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0012,C03306,2026-06-21T21:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0013,C00512,2026-05-09T18:00:00,"UPI money debited twice for order, please refund. 😡",payment_refund,negative,4,UPI debited twice; refund requested,ok
+T0014,C01201,2026-04-15T13:00:00,"rider was lost and called me 3 times, order came 74 min late",late_delivery,negative,3,Rider got lost; order arrived 74 minutes late,ok
+T0015,C02365,2026-05-06T20:00:00,"Love the app, fastest groceries in Pune.",praise,positive,1,Loves app; fastest groceries in Pune,ok
+T0016,C00188,2026-05-31T06:00:00,Paid for 9 items but only got 4. The paneer is missing.,missing_item,negative,4,"Paid for 9 items, received only 4; paneer missing",ok
+T0017,C00327,2026-06-01T12:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0018,C01858,2026-05-13T07:00:00,App crashes when I open cart on version 5.3.1. yaar kya chal raha hai,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0019,C01456,2026-05-08T15:00:00,Why is delivery in Pune so slow now? Waited 47 minutes for milk.,late_delivery,negative,3,Delivery in Pune slow; waited 47 minutes for milk,ok
+T0020,C02875,2026-05-26T01:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0021,C02496,2026-05-16T16:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0022,C01894,2026-06-20T02:00:00,"Delivery was super late today, groceries arrived after 67 mins. Also vegetables were rotten, tomatoes completely squashed.",late_delivery,negative,4,Delivery 67 mins late; vegetables rotten and tomatoes squashed,ok
+T0023,C01329,2026-05-01T09:00:00,Rider was very polite and helped with heavy bags. 5 stars. pls jaldi karo Also charged rs 500 but app shows rs 200. fix this.,praise,positive,1,Rider polite and helpful; charged 500 but app shows 200,ok
+T0024,C01644,2026-04-16T17:00:00,App crashes when I open cart on version 5.3.1. yaar kya chal raha hai,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0025,C01289,2026-05-02T14:00:00,Why is delivery in Surat so slow now? Waited 71 minutes for milk. 😡 Also bread was mouldy. not acceptable.,late_delivery,negative,4,71‑minute wait for milk; bread arrived mouldy,ok
+T0026,C01621,2026-06-12T21:00:00,Paid for 6 items but only got 4. The paneer is missing.,missing_item,negative,3,"Paid for 6 items, received 4; paneer missing",ok
+T0027,C00572,2026-06-12T22:00:00,"rider was lost and called me 3 times, order came 46 min late",late_delivery,negative,3,"Rider got lost, called thrice; order arrived 46 minutes late",ok
+T0028,C02208,2026-05-26T03:00:00,Paid for 5 items but only got 4. The paneer is missing.,missing_item,negative,3,"Paid for 5 items, received 4; paneer missing",ok
+T0029,C01755,2026-04-24T12:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0030,C00899,2026-06-13T07:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0031,C03096,2026-05-29T17:00:00,"Vegetables were rotten, tomatoes completely squashed. bahut bekar service hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0032,C02571,2026-05-09T22:00:00,"My order took 77 minutes, you promised 15. This is the second time this week.",late_delivery,negative,4,Order took 77 mins vs promised 15; second time this week,ok
+T0033,C02443,2026-06-26T16:00:00,"Delivery in 9 minutes, amazing service! Thank you.",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0034,C01918,2026-05-10T12:00:00,"My order took 53 minutes, you promised 15. This is the third time this week. 😡",late_delivery,negative,4,Order took 53 mins vs promised 15; third time this week,ok
+T0035,C03526,2026-05-13T15:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0036,C02793,2026-06-21T15:00:00,Paid for 7 items but only got 4. The paneer is missing.,missing_item,negative,3,"Paid for 7 items, received 4; paneer missing",ok
+T0037,C00457,2026-04-24T19:00:00,Why is delivery in Pune so slow now? Waited 81 minutes for milk.,late_delivery,negative,3,81‑minute wait for milk; delivery in Pune slow,ok
+T0038,C00014,2026-05-26T13:00:00,Why is delivery in Surat so slow now? Waited 45 minutes for milk. !!!,late_delivery,negative,3,Delivery in Surat slow; waited 45 minutes for milk,ok
+T0039,C03981,2026-04-24T11:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0040,C03566,2026-05-09T01:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing bahut bekar service hai",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0041,C02495,2026-06-24T14:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0042,C02210,2026-05-15T15:00:00,"Paid for 8 items but only got 4. The paneer is missing. Also delivery in 9 minutes, amazing service! thank you.",missing_item,negative,3,Only 4 of 8 items received; paneer missing; delivery was fast,ok
+T0043,C01328,2026-04-23T03:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0044,C03806,2026-04-25T22:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0045,C00238,2026-04-09T19:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0046,C00351,2026-05-14T16:00:00,Paid for 7 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 7 items, received only 3; paneer missing",ok
+T0047,C03116,2026-04-20T23:00:00,"Love the app, fastest groceries in Ahmedabad.",praise,positive,1,Loves app; fastest groceries in Ahmedabad,ok
+T0048,C03879,2026-06-17T11:00:00,"Delivery was super late today, groceries arrived after 72 mins.",late_delivery,negative,3,Delivery 72 minutes late,ok
+T0049,C02162,2026-05-23T13:00:00,"Love the app, fastest groceries in Pune.",praise,positive,1,Loves app; fastest groceries in Pune,ok
+T0050,C03094,2026-05-21T07:00:00,"Love the app, fastest groceries in Surat. 😡",praise,positive,1,Loves app; fastest groceries in Surat,ok
+T0051,C01635,2026-05-17T04:00:00,Bread was mouldy. Not acceptable. yaar kya chal raha hai,quality,negative,4,Mouldy bread not acceptable,ok
+T0052,C03685,2026-05-16T10:00:00,"Love the app, fastest groceries in Pune. !!!",praise,positive,1,Loves app; fastest groceries in Pune,ok
+T0053,C00921,2026-05-17T18:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing Also vegetables were rotten, tomatoes completely squashed.",missing_item,negative,4,"Wrong butter brand, half order missing; also rotten, squashed vegetables",ok
+T0054,C02410,2026-04-30T02:00:00,"My order took 81 minutes, you promised 15. This is the third time this week.",late_delivery,negative,4,Order took 81 minutes vs promised 15; third time this week,ok
+T0055,C00903,2026-05-02T23:00:00,"Love the app, fastest groceries in Jaipur.",praise,positive,1,Loves app; fastest groceries in Jaipur,ok
+T0056,C00938,2026-06-19T02:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0057,C00291,2026-05-05T05:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0058,C02741,2026-06-12T02:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0059,C02963,2026-05-21T07:00:00,"rider was lost and called me 3 times, order came 58 min late Also delivery in 9 minutes, amazing service! thank you.",late_delivery,negative,3,"Rider lost, order 58 min late; praised quick 9‑min delivery",ok
+T0060,C00996,2026-05-27T20:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0061,C00398,2026-05-09T21:00:00,Item missing from my bag - eggs were not delivered but charged. bahut bekar service hai,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0062,C01735,2026-05-24T09:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0063,C00249,2026-04-26T06:00:00,Item missing from my bag - eggs were not delivered but charged. bahut bekar service hai,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0064,C01019,2026-04-24T01:00:00,"Cannot apply coupon, it keeps spinning. Also upi money debited twice for order, please refund.",app_bug,negative,3,"Coupon won't apply; UPI debited twice, refund needed",ok
+T0065,C01838,2026-06-25T23:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0066,C01141,2026-04-13T02:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0067,C01816,2026-06-20T17:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0068,C02672,2026-06-04T01:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0069,C01665,2026-06-08T18:00:00,"Charged Rs 803 but app shows Rs 154. Fix this. pls jaldi karo Also vegetables were rotten, tomatoes completely squashed.",payment_refund,negative,4,Charged Rs803 vs Rs154 discrepancy; rotten tomatoes also received,ok
+T0070,C03542,2026-04-13T08:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0071,C01553,2026-05-29T13:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0072,C03796,2026-04-20T15:00:00,"My order took 68 minutes, you promised 15. This is the third time this week.",late_delivery,negative,4,Order took 68 minutes vs promised 15; third time this week,ok
+T0073,C02712,2026-04-12T00:00:00,Item missing from my bag - eggs were not delivered but charged. 😡,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0074,C00778,2026-04-20T13:00:00,"Love the app, fastest groceries in Surat.",praise,positive,1,Loves app; fastest groceries in Surat,ok
+T0075,C02373,2026-06-16T19:00:00,Why is delivery in Ahmedabad so slow now? Waited 49 minutes for milk.,late_delivery,negative,3,Delivery in Ahmedabad took 49 minutes; slow service,ok
+T0076,C03064,2026-04-14T17:00:00,"Love the app, fastest groceries in Ahmedabad.",praise,positive,1,Loves app; fastest groceries in Ahmedabad,ok
+T0077,C01953,2026-05-08T14:00:00,Item missing from my bag - eggs were not delivered but charged. 😡,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0078,C00233,2026-04-17T02:00:00,"Love the app, fastest groceries in Surat.",praise,positive,1,Loves app; fastest groceries in Surat,ok
+T0079,C00281,2026-05-27T05:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0080,C01654,2026-06-19T14:00:00,Charged Rs 509 but app shows Rs 279. Fix this.,payment_refund,negative,4,Charged Rs 509 but app shows Rs 279; request correction,ok
+T0081,C02436,2026-06-10T01:00:00,"UPI money debited twice for order, please refund. 😡",payment_refund,negative,4,UPI debited twice; refund requested,ok
+T0082,C01718,2026-04-19T08:00:00,Paid for 5 items but only got 3. The paneer is missing.,missing_item,negative,3,"Paid for 5 items, received 3; paneer missing",ok
+T0083,C02142,2026-06-06T07:00:00,"Love the app, fastest groceries in Jaipur.",praise,positive,1,Loves app; fastest groceries in Jaipur,ok
+T0084,C02744,2026-06-25T03:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0085,C01088,2026-05-22T20:00:00,Charged Rs 834 but app shows Rs 187. Fix this.,payment_refund,negative,4,Charged Rs 834 while app shows Rs 187; need correction,ok
+T0086,C01296,2026-04-18T22:00:00,"rider was lost and called me 3 times, order came 66 min late !!!",late_delivery,negative,3,Rider got lost; order arrived 66 minutes late,ok
+T0087,C02545,2026-06-09T19:00:00,"My order took 47 minutes, you promised 15. This is the second time this week.",late_delivery,negative,4,Order took 47 mins vs promised 15; second time this week,ok
+T0088,C02203,2026-06-28T16:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0089,C00543,2026-05-27T00:00:00,Paid for 6 items but only got 2. The paneer is missing.,missing_item,negative,3,"Paid for 6 items, received only 2; paneer missing",ok
+T0090,C01168,2026-05-28T10:00:00,"Cannot apply coupon, it keeps spinning. Also rider was very polite and helped with heavy bags. 5 stars.",app_bug,negative,2,Coupon won't apply; rider was polite and helped with bags,ok
+T0091,C02882,2026-05-22T09:00:00,Paid for 7 items but only got 2. The paneer is missing.,missing_item,negative,4,"Paid for 7 items, received only 2; paneer missing",ok
+T0092,C02736,2026-04-27T12:00:00,Refund for cancelled order still not received after 4th days. bahut bekar service hai,payment_refund,negative,4,Refund for cancelled order not received after 4 days,ok
+T0093,C03846,2026-04-30T15:00:00,Why is delivery in Ahmedabad so slow now? Waited 35 minutes for milk.,late_delivery,negative,3,Delivery in Ahmedabad slow; waited 35 minutes for milk,ok
+T0094,C03645,2026-05-03T00:00:00,Paid for 7 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 7 items, received only 3; paneer missing",ok
+T0095,C01116,2026-06-05T02:00:00,"My order took 79 minutes, you promised 15. This is the 4th time this week. pls jaldi karo",late_delivery,negative,4,Order took 79 mins vs promised 15; fourth late delivery this week,ok
+T0096,C02940,2026-04-21T03:00:00,Why is delivery in Surat so slow now? Waited 72 minutes for milk.,late_delivery,negative,3,Delivery in Surat took 72 minutes; milk arrived late,ok
+T0097,C02071,2026-05-14T22:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0098,C02599,2026-04-17T09:00:00,Item missing from my bag - eggs were not delivered but charged. bahut bekar service hai,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0099,C00015,2026-06-16T09:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0100,C03037,2026-06-15T02:00:00,Refund for cancelled order still not received after second days. pls jaldi karo,payment_refund,negative,4,Refund for cancelled order not received after two days; request expedited,ok
+T0101,C00040,2026-06-02T13:00:00,"rider was lost and called me 3 times, order came 73 min late 😡",late_delivery,negative,3,Rider got lost; order arrived 73 minutes late,ok
+T0102,C02235,2026-04-20T10:00:00,"My order took 45 minutes, you promised 15. This is the second time this week.",late_delivery,negative,4,Order took 45 mins vs promised 15; second time this week,ok
+T0103,C02264,2026-05-20T11:00:00,Paid for 5 items but only got 2. The paneer is missing.,missing_item,negative,4,"Paid for 5 items, received 2; paneer missing",ok
+T0104,C00172,2026-04-29T11:00:00,"Delivery was super late today, groceries arrived after 68 mins.",late_delivery,negative,3,Delivery 68 minutes late,ok
+T0105,C03682,2026-06-14T00:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0106,C01449,2026-05-22T19:00:00,Why is delivery in Surat so slow now? Waited 82 minutes for milk. bahut bekar service hai,late_delivery,negative,3,Delivery in Surat 82 minutes late for milk,ok
+T0107,C03792,2026-06-03T11:00:00,"rider was lost and called me 3 times, order came 74 min late",late_delivery,negative,3,Rider got lost; order arrived 74 minutes late,ok
+T0108,C03611,2026-04-18T06:00:00,Paid for 5 items but only got 2. The paneer is missing.,missing_item,negative,4,"Paid for 5 items, received 2; paneer missing",ok
+T0109,C03017,2026-04-28T06:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0110,C00653,2026-05-11T11:00:00,Rider was very polite and helped with heavy bags. 5 stars. yaar kya chal raha hai,praise,positive,1,"Rider polite, helped with heavy bags; 5 stars",ok
+T0111,C03517,2026-06-19T23:00:00,"My order took 88 minutes, you promised 15. This is the third time this week.",late_delivery,negative,4,Order arrived 88 mins vs promised 15; third late delivery this week,ok
+T0112,C03345,2026-06-16T00:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0113,C03361,2026-04-20T19:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0114,C02704,2026-04-24T12:00:00,"Delivery was super late today, groceries arrived after 51 mins.",late_delivery,negative,3,Delivery 51 minutes late,ok
+T0115,C01142,2026-05-24T22:00:00,Paid for 9 items but only got 4. The paneer is missing.,missing_item,negative,4,"Paid for 9 items, received only 4; paneer missing",ok
+T0116,C02628,2026-04-29T14:00:00,Paid for 5 items but only got 4. The paneer is missing.,missing_item,negative,3,"Paid for 5 items, received 4; paneer missing",ok
+T0117,C01357,2026-05-15T13:00:00,Charged Rs 724 but app shows Rs 124. Fix this.,payment_refund,negative,4,Charged Rs 724 while app shows Rs 124; need correction,ok
+T0118,C02379,2026-06-11T09:00:00,"UPI money debited twice for order, please refund. pls jaldi karo",payment_refund,negative,4,UPI debited twice; refund requested,ok
+T0119,C02444,2026-05-24T15:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0120,C02484,2026-06-17T11:00:00,"rider was lost and called me 3 times, order came 60 min late Also item missing from my bag - eggs were not delivered but charged.",late_delivery,negative,3,"Rider lost, order 60 min late; eggs missing and charged",ok
+T0121,C00779,2026-04-25T22:00:00,"My order took 45 minutes, you promised 15. This is the third time this week.",late_delivery,negative,4,Order took 45 mins vs promised 15; third occurrence this week,ok
+T0122,C00007,2026-04-30T08:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0123,C03887,2026-04-23T00:00:00,"Delivery was super late today, groceries arrived after 69 mins. bahut bekar service hai",late_delivery,negative,3,Delivery 69 minutes late; service poor,ok
+T0124,C01286,2026-06-28T00:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0125,C02078,2026-05-14T21:00:00,"My order took 68 minutes, you promised 15. This is the 4th time this week.",late_delivery,negative,4,Order took 68 mins vs promised 15; fourth time this week,ok
+T0126,C01649,2026-06-18T08:00:00,Why is delivery in Bengaluru so slow now? Waited 73 minutes for milk. yaar kya chal raha hai,late_delivery,negative,3,Waited 73 minutes for milk; delivery in Bengaluru slow,ok
+T0127,C00786,2026-04-15T08:00:00,Why is delivery in Surat so slow now? Waited 84 minutes for milk.,late_delivery,negative,3,Delivery in Surat took 84 minutes; milk arrived late,ok
+T0128,C02775,2026-04-10T18:00:00,"rider was lost and called me 3 times, order came 71 min late",late_delivery,negative,3,"Rider got lost, order arrived 71 minutes late",ok
+T0129,C01233,2026-04-24T07:00:00,"Delivery was super late today, groceries arrived after 74 mins.",late_delivery,negative,3,Delivery 74 minutes late,ok
+T0130,C01245,2026-04-16T22:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0131,C02485,2026-06-03T06:00:00,"Cannot apply coupon, it keeps spinning. Also love the app, fastest groceries in pune.",app_bug,negative,3,"Coupon application fails, spinner never stops",ok
+T0132,C01812,2026-05-18T00:00:00,"Login OTP never arrives, tried 5 times. !!!",app_bug,negative,3,Login OTP not received after multiple attempts,ok
+T0133,C01939,2026-04-30T13:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0134,C01163,2026-06-23T23:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0135,C01373,2026-05-01T15:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0136,C00921,2026-05-12T10:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0137,C00190,2026-06-09T04:00:00,"Delivery in 9 minutes, amazing service! Thank you.",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0138,C03481,2026-04-26T03:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0139,C00797,2026-04-24T22:00:00,"My order took 65 minutes, you promised 15. This is the third time this week. 😡",late_delivery,negative,4,Order took 65 mins vs 15 promised; third time this week,ok
+T0140,C01637,2026-04-24T08:00:00,Charged Rs 566 but app shows Rs 191. Fix this. !!!,payment_refund,negative,4,Charged Rs 566 but app shows Rs 191; request correction,ok
+T0141,C03657,2026-05-08T18:00:00,Paid for 8 items but only got 2. The paneer is missing.,missing_item,negative,4,"Paid for 8 items, received only 2; paneer missing",ok
+T0142,C03294,2026-05-27T03:00:00,"My order took 84 minutes, you promised 15. This is the third time this week. pls jaldi karo",late_delivery,negative,4,Order took 84 mins vs 15 promised; third repeat this week,ok
+T0143,C01021,2026-06-21T07:00:00,"rider was lost and called me 3 times, order came 88 min late",late_delivery,negative,3,Rider got lost; order arrived 88 minutes late,ok
+T0144,C03283,2026-06-14T10:00:00,Paid for 9 items but only got 2. The paneer is missing.,missing_item,negative,4,"Paid for 9 items, received only 2; paneer missing",ok
+T0145,C02439,2026-06-29T19:00:00,Refund for cancelled order still not received after 4th days. 😡,payment_refund,negative,4,Refund for cancelled order not received after 4 days,ok
+T0146,C03339,2026-05-24T15:00:00,Why is delivery in Jaipur so slow now? Waited 47 minutes for milk.,late_delivery,negative,3,Delivery in Jaipur took 47 minutes; slow service,ok
+T0147,C01827,2026-06-12T11:00:00,Charged Rs 541 but app shows Rs 207. Fix this. 😡,payment_refund,negative,4,Charged Rs 541 but app shows Rs 207; request correction,ok
+T0148,C01844,2026-06-24T23:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0149,C03137,2026-06-28T01:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0150,C01802,2026-04-29T13:00:00,Bread was mouldy. Not acceptable. Also refund for cancelled order still not received after second days.,quality,negative,4,Mouldy bread; refund for cancelled order still pending,ok
+T0151,C00961,2026-04-19T16:00:00,Paid for 7 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 7 items, received only 3; paneer missing",ok
+T0152,C03658,2026-06-09T10:00:00,Why is delivery in Pune so slow now? Waited 76 minutes for milk.,late_delivery,negative,3,Delivery in Pune took 76 minutes; milk arrived late,ok
+T0153,C00618,2026-06-07T11:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0154,C00877,2026-04-21T03:00:00,"App crashes when I open cart on version 5.3.1. Also love the app, fastest groceries in pune.",app_bug,negative,3,App crashes opening cart; also loves fast service,ok
+T0155,C01356,2026-06-19T14:00:00,"My order took 54 minutes, you promised 15. This is the third time this week.",late_delivery,negative,4,Order took 54 mins vs promised 15; third occurrence this week,ok
+T0156,C00848,2026-06-26T09:00:00,"Login OTP never arrives, tried 5 times. Also my order took 50 minutes, you promised 15. this is the second time this week.",app_bug,negative,4,OTP not received after 5 attempts; order delayed 50 mins vs 15 promised,ok
+T0157,C00081,2026-05-23T08:00:00,"Refund for cancelled order still not received after third days. Also got wrong item, ordered amul butter received some other brand and half the order missing",payment_refund,negative,4,Refund pending for cancelled order; received wrong butter and missing items,ok
+T0158,C03862,2026-04-12T23:00:00,"rider was lost and called me 3 times, order came 71 min late",late_delivery,negative,3,"Rider got lost, order arrived 71 minutes late",ok
+T0159,C03496,2026-05-29T06:00:00,Why is delivery in Bengaluru so slow now? Waited 84 minutes for milk.,late_delivery,negative,3,Waited 84 minutes for milk; delivery slow in Bengaluru,ok
+T0160,C03678,2026-05-12T15:00:00,"Refund for cancelled order still not received after 4th days. Also got wrong item, ordered amul butter received some other brand and half the order missing",payment_refund,negative,4,Refund pending for cancelled order; also received wrong butter and missing items,ok
+T0161,C01118,2026-04-08T08:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0162,C02740,2026-06-01T21:00:00,"rider was lost and called me 3 times, order came 35 min late !!! Also cannot apply coupon, it keeps spinning.",late_delivery,negative,3,"Rider lost, order 35 min late; coupon won't apply",ok
+T0163,C03443,2026-06-24T11:00:00,Charged Rs 882 but app shows Rs 201. Fix this.,payment_refund,negative,4,Charged Rs 882 but app shows Rs 201; needs correction,ok
+T0164,C02188,2026-04-10T08:00:00,"rider was lost and called me 3 times, order came 40 min late",late_delivery,negative,3,Rider got lost; order arrived 40 minutes late,ok
+T0165,C02716,2026-05-12T23:00:00,"My order took 81 minutes, you promised 15. This is the third time this week. 😡",late_delivery,negative,4,Order took 81 minutes vs promised 15; third time this week,ok
+T0166,C00556,2026-06-17T11:00:00,Paid for 9 items but only got 2. The paneer is missing.,missing_item,negative,4,"Paid for 9 items, received only 2; paneer missing",ok
+T0167,C01066,2026-06-11T11:00:00,"rider was lost and called me 3 times, order came 67 min late",late_delivery,negative,3,Rider got lost; order arrived 67 minutes late,ok
+T0168,C01863,2026-05-11T11:00:00,"rider was lost and called me 3 times, order came 87 min late",late_delivery,negative,3,"Rider got lost, called thrice; order arrived 87 minutes late",ok
+T0169,C01140,2026-04-26T15:00:00,Refund for cancelled order still not received after third days.,payment_refund,negative,5,Refund not received after three days for cancelled order,ok
+T0170,C01927,2026-06-27T06:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0171,C03900,2026-04-16T10:00:00,"App crashes when I open cart on version 5.3.1. Also delivery in 9 minutes, amazing service! thank you.",app_bug,negative,3,App crashes opening cart; delivery was fast and praised,ok
+T0172,C03200,2026-04-29T23:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0173,C03890,2026-05-23T11:00:00,Charged Rs 525 but app shows Rs 114. Fix this.,payment_refund,negative,4,Charged Rs525 but app shows Rs114; request correction,ok
+T0174,C02545,2026-05-08T21:00:00,"Delivery was super late today, groceries arrived after 44 mins.",late_delivery,negative,3,Delivery 44 mins late,ok
+T0175,C02743,2026-04-26T22:00:00,"Delivery was super late today, groceries arrived after 84 mins. !!!",late_delivery,negative,3,Groceries arrived 84 minutes late,ok
+T0176,C01905,2026-05-24T16:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0177,C00688,2026-05-19T22:00:00,"Love the app, fastest groceries in Pune.",praise,positive,1,Loves app; fastest groceries in Pune,ok
+T0178,C03952,2026-04-24T00:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing pls jaldi karo",missing_item,negative,3,Wrong butter brand delivered; half the order missing,ok
+T0179,C00106,2026-06-16T23:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0180,C03857,2026-06-15T15:00:00,Milk packet was expired by 2 days. Very disappointed. !!!,quality,negative,4,Milk packet expired by 2 days; customer disappointed,ok
+T0181,C02426,2026-04-22T05:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0182,C00418,2026-05-02T21:00:00,Charged Rs 489 but app shows Rs 129. Fix this.,payment_refund,negative,4,Charged Rs 489 while app shows Rs 129; need correction,ok
+T0183,C03300,2026-06-17T00:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0184,C02183,2026-05-20T01:00:00,"Vegetables were rotten, tomatoes completely squashed. yaar kya chal raha hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0185,C00283,2026-04-15T17:00:00,Refund for cancelled order still not received after 4th days.,payment_refund,negative,4,Refund for cancelled order not received after four days,ok
+T0186,C00052,2026-04-14T14:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0187,C01776,2026-05-12T05:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0188,C02898,2026-06-19T21:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0189,C03006,2026-06-09T05:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0190,C03173,2026-05-30T03:00:00,Why is delivery in Jaipur so slow now? Waited 70 minutes for milk.,late_delivery,negative,3,70-minute wait for milk delivery in Jaipur; delivery slow,ok
+T0191,C03383,2026-06-19T18:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0192,C03403,2026-06-22T03:00:00,Why is delivery in Surat so slow now? Waited 87 minutes for milk.,late_delivery,negative,3,Delivery in Surat 87 minutes late for milk,ok
+T0193,C03074,2026-06-07T02:00:00,App crashes when I open cart on version 5.3.1. pls jaldi karo,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0194,C02737,2026-06-18T13:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0195,C02025,2026-06-27T20:00:00,"rider was lost and called me 3 times, order came 87 min late",late_delivery,negative,3,"Rider got lost, called thrice; order arrived 87 minutes late",ok
+T0196,C00869,2026-05-29T03:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0197,C01146,2026-04-22T01:00:00,Why is delivery in Pune so slow now? Waited 35 minutes for milk.,late_delivery,negative,3,Delivery in Pune slow; waited 35 minutes for milk,ok
+T0198,C00042,2026-06-25T16:00:00,Bread was mouldy. Not acceptable. 😡,quality,negative,4,Mouldy bread received; not acceptable,ok
+T0199,C02950,2026-04-18T01:00:00,Bread was mouldy. Not acceptable. pls jaldi karo,quality,negative,4,Mouldy bread received; not acceptable,ok
+T0200,C03106,2026-04-19T09:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0201,C02646,2026-05-21T03:00:00,Paid for 9 items but only got 3. The paneer is missing.,missing_item,negative,3,"Paid for 9 items, received only 3; paneer missing",ok
+T0202,C03248,2026-04-15T01:00:00,"Love the app, fastest groceries in Bengaluru.",praise,positive,1,Loves app; fastest groceries in Bengaluru,ok
+T0203,C01657,2026-06-06T14:00:00,Paid for 6 items but only got 2. The paneer is missing. pls jaldi karo,missing_item,negative,4,"Paid for 6 items, received 2; paneer missing",ok
+T0204,C01512,2026-05-16T22:00:00,"Delivery was super late today, groceries arrived after 82 mins.",late_delivery,negative,3,Delivery 82 minutes late,ok
+T0205,C01743,2026-05-06T19:00:00,"Cannot apply coupon, it keeps spinning. yaar kya chal raha hai",app_bug,negative,3,Coupon cannot be applied; spinner persists,ok
+T0206,C01110,2026-05-14T01:00:00,Why is delivery in Bengaluru so slow now? Waited 48 minutes for milk.,late_delivery,negative,3,Delivery in Bengaluru slow; waited 48 minutes for milk,ok
+T0207,C02955,2026-04-16T18:00:00,"Item missing from my bag - eggs were not delivered but charged. Also upi money debited twice for order, please refund.",missing_item,negative,3,Eggs missing from order; charged and UPI debited twice,ok
+T0208,C03043,2026-04-11T16:00:00,Paid for 6 items but only got 4. The paneer is missing.,missing_item,negative,3,"Paid for 6 items, received 4; paneer missing",ok
+T0209,C00887,2026-05-05T08:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing pls jaldi karo",missing_item,negative,3,Wrong butter brand delivered; half the order missing,ok
+T0210,C02445,2026-04-18T22:00:00,"rider was lost and called me 3 times, order came 37 min late 😡",late_delivery,negative,3,Rider got lost; order arrived 37 minutes late,ok
+T0211,C01214,2026-04-20T05:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0212,C01239,2026-04-24T23:00:00,"Delivery was super late today, groceries arrived after 83 mins.",late_delivery,negative,3,Groceries arrived 83 minutes late,ok
+T0213,C01124,2026-04-17T13:00:00,"Paid for 7 items but only got 4. The paneer is missing. Also delivery in 9 minutes, amazing service! thank you.",missing_item,negative,3,Received 4 of 7 items; paneer missing,ok
+T0214,C02857,2026-04-13T17:00:00,App crashes when I open cart on version 5.3.1. yaar kya chal raha hai,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0215,C03575,2026-06-15T12:00:00,"Delivery was super late today, groceries arrived after 41 mins. bahut bekar service hai",late_delivery,negative,3,Delivery 41 mins late; service poor,ok
+T0216,C01923,2026-05-20T20:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0217,C03955,2026-04-24T10:00:00,Item missing from my bag - eggs were not delivered but charged. pls jaldi karo,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0218,C03368,2026-05-26T13:00:00,"UPI money debited twice for order, please refund. bahut bekar service hai",payment_refund,negative,4,UPI debited twice; refund requested,ok
+T0219,C00304,2026-06-11T13:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0220,C00622,2026-04-14T17:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0221,C00349,2026-05-30T05:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0222,C03132,2026-04-12T05:00:00,"Delivery in 9 minutes, amazing service! Thank you.",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0223,C03239,2026-04-30T14:00:00,"rider was lost and called me 3 times, order came 70 min late",late_delivery,negative,3,"Rider got lost, called thrice; order arrived 70 minutes late",ok
+T0224,C01559,2026-05-15T08:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0225,C01251,2026-06-01T23:00:00,"Milk packet was expired by 2 days. Very disappointed. Also rider was lost and called me 3 times, order came 50 min late",quality,negative,4,"Expired milk; rider got lost, order 50 min late",ok
+T0226,C02498,2026-05-15T17:00:00,"Love the app, fastest groceries in Ahmedabad.",praise,positive,1,Loves app; fastest groceries in Ahmedabad,ok
+T0227,C02563,2026-06-01T19:00:00,Charged Rs 599 but app shows Rs 116. Fix this.,payment_refund,negative,4,Charged Rs 599 but app shows Rs 116; request correction,ok
+T0228,C00983,2026-06-13T08:00:00,"UPI money debited twice for order, please refund. pls jaldi karo",payment_refund,negative,4,UPI debited twice; refund requested,ok
+T0229,C00642,2026-05-29T05:00:00,"Delivery was super late today, groceries arrived after 88 mins.",late_delivery,negative,3,Delivery 88 minutes late,ok
+T0230,C01925,2026-05-23T12:00:00,"Delivery in 9 minutes, amazing service! Thank you. 😡",praise,positive,1,"Fast 9‑minute delivery, amazing service, thank you",ok
+T0231,C01181,2026-05-27T08:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0232,C02816,2026-05-09T10:00:00,"Love the app, fastest groceries in Bengaluru. bahut bekar service hai",praise,positive,1,Loves app; fastest groceries in Bengaluru,ok
+T0233,C01742,2026-04-28T00:00:00,"Delivery in 9 minutes, amazing service! Thank you. pls jaldi karo",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0234,C03721,2026-06-25T02:00:00,"Delivery in 9 minutes, amazing service! Thank you. pls jaldi karo",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0235,C00245,2026-04-22T00:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0236,C03068,2026-06-08T09:00:00,"Delivery was super late today, groceries arrived after 88 mins.",late_delivery,negative,3,Delivery 88 minutes late,ok
+T0237,C00510,2026-06-01T10:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0238,C03862,2026-04-08T12:00:00,Milk packet was expired by 2 days. Very disappointed. !!!,quality,negative,4,Milk packet expired by 2 days; customer disappointed,ok
+T0239,C01794,2026-04-20T01:00:00,Why is delivery in Jaipur so slow now? Waited 70 minutes for milk. Also item missing from my bag - eggs were not delivered but charged.,late_delivery,negative,3,70‑minute wait for milk; eggs missing and charged,ok
+T0240,C03009,2026-05-24T07:00:00,Paid for 6 items but only got 4. The paneer is missing. !!!,missing_item,negative,3,"Paid for 6 items, received 4; paneer missing",ok
+T0241,C00106,2026-06-07T07:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0242,C03895,2026-05-21T20:00:00,Paid for 9 items but only got 3. The paneer is missing. 😡,missing_item,negative,4,"Paid for 9 items, received only 3; paneer missing",ok
+T0243,C02361,2026-04-24T08:00:00,"My order took 89 minutes, you promised 15. This is the 4th time this week.",late_delivery,negative,4,Order took 89 mins vs promised 15; fourth time this week,ok
+T0244,C02126,2026-04-20T16:00:00,"My order took 65 minutes, you promised 15. This is the second time this week.",late_delivery,negative,4,Order took 65 mins vs promised 15; second time this week,ok
+T0245,C01786,2026-06-21T14:00:00,"rider was lost and called me 3 times, order came 45 min late 😡",late_delivery,negative,3,Rider lost; order 45 min late,ok
+T0246,C01926,2026-06-15T00:00:00,"Love the app, fastest groceries in Ahmedabad.",praise,positive,1,Loves app; fastest groceries in Ahmedabad,ok
+T0247,C01316,2026-06-08T18:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0248,C01687,2026-05-19T06:00:00,"My order took 77 minutes, you promised 15. This is the second time this week.",late_delivery,negative,4,Order took 77 mins vs promised 15; second time this week,ok
+T0249,C02714,2026-04-14T12:00:00,Charged Rs 810 but app shows Rs 164. Fix this.,payment_refund,negative,4,Charged Rs 810 but app shows Rs 164; request correction,ok
+T0250,C01863,2026-06-03T23:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0251,C01325,2026-06-26T18:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0252,C03379,2026-06-26T12:00:00,Paid for 6 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 6 items, received only 3; paneer missing",ok
+T0253,C01893,2026-06-22T18:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0254,C02124,2026-05-17T03:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0255,C03113,2026-05-17T12:00:00,"Cannot apply coupon, it keeps spinning. !!!",app_bug,negative,2,Coupon won't apply; spinner keeps loading,ok
+T0256,C00537,2026-05-19T00:00:00,"My order took 72 minutes, you promised 15. This is the second time this week. 😡",late_delivery,negative,4,Order took 72 mins vs promised 15; second time this week,ok
+T0257,C00498,2026-04-23T08:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0258,C03274,2026-04-22T13:00:00,"My order took 41 minutes, you promised 15. This is the 4th time this week.",late_delivery,negative,4,Order took 41 mins vs promised 15; fourth time this week,ok
+T0259,C02257,2026-05-12T04:00:00,"Delivery was super late today, groceries arrived after 72 mins. yaar kya chal raha hai",late_delivery,negative,3,Delivery 72 minutes late,ok
+T0260,C00382,2026-04-17T12:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0261,C02654,2026-04-19T09:00:00,"Delivery was super late today, groceries arrived after 62 mins. bahut bekar service hai",late_delivery,negative,3,Delivery 62 minutes late; service poor,ok
+T0262,C02085,2026-05-19T09:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0263,C01935,2026-06-19T10:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing !!!",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0264,C00593,2026-06-25T01:00:00,"Delivery was super late today, groceries arrived after 83 mins.",late_delivery,negative,3,Groceries arrived 83 minutes late,ok
+T0265,C02082,2026-04-20T21:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0266,C03165,2026-05-18T15:00:00,Charged Rs 596 but app shows Rs 265. Fix this. yaar kya chal raha hai,payment_refund,negative,4,Charged Rs 596 but app shows Rs 265; request correction,ok
+T0267,C01095,2026-04-23T00:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0268,C03431,2026-05-15T21:00:00,"Delivery in 9 minutes, amazing service! Thank you.",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0269,C03545,2026-05-12T01:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0270,C01984,2026-06-14T05:00:00,"Delivery was super late today, groceries arrived after 51 mins.",late_delivery,negative,3,Delivery 51 minutes late,ok
+T0271,C03125,2026-06-24T18:00:00,Why is delivery in Jaipur so slow now? Waited 49 minutes for milk.,late_delivery,negative,3,Delivery in Jaipur took 49 minutes; slow service,ok
+T0272,C03821,2026-05-30T21:00:00,"Love the app, fastest groceries in Bengaluru.",praise,positive,1,Loves app; fastest groceries in Bengaluru,ok
+T0273,C02343,2026-04-10T10:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0274,C00179,2026-06-11T22:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0275,C02889,2026-05-12T02:00:00,Refund for cancelled order still not received after 4th days.,payment_refund,negative,4,Refund for cancelled order not received after four days,ok
+T0276,C02029,2026-06-28T01:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0277,C01360,2026-04-23T08:00:00,"My order took 54 minutes, you promised 15. This is the second time this week. 😡",late_delivery,negative,4,Order took 54 mins vs promised 15; second time this week,ok
+T0278,C02155,2026-04-14T06:00:00,App crashes when I open cart on version 5.3.1.,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0279,C03568,2026-06-18T14:00:00,"Cannot apply coupon, it keeps spinning. !!!",app_bug,negative,2,Coupon won't apply; spinner keeps loading,ok
+T0280,C01924,2026-04-11T02:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0281,C02838,2026-06-14T10:00:00,Why is delivery in Jaipur so slow now? Waited 58 minutes for milk.,late_delivery,negative,3,Delivery in Jaipur took 58 minutes for milk; slow service,ok
+T0282,C03489,2026-04-16T09:00:00,"rider was lost and called me 3 times, order came 75 min late",late_delivery,negative,3,Rider got lost; order arrived 75 minutes late,ok
+T0283,C03909,2026-05-23T09:00:00,Item missing from my bag - eggs were not delivered but charged. !!!,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0284,C03574,2026-05-12T04:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0285,C02586,2026-05-06T00:00:00,"My order took 89 minutes, you promised 15. This is the 4th time this week. Also vegetables were rotten, tomatoes completely squashed.",late_delivery,negative,4,Order 89 mins vs 15 promised; repeated late delivery; vegetables rotten,ok
+T0286,C00404,2026-06-21T22:00:00,Why is delivery in Ahmedabad so slow now? Waited 40 minutes for milk. !!!,late_delivery,negative,3,Delivery in Ahmedabad 40 minutes late for milk,ok
+T0287,C01227,2026-06-05T12:00:00,"My order took 61 minutes, you promised 15. This is the third time this week. Also got wrong item, ordered amul butter received some other brand and half the order missing",late_delivery,negative,4,Order 61 mins vs 15 promised; also wrong butter and half order missing,ok
+T0288,C03262,2026-05-14T08:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0289,C01536,2026-06-09T09:00:00,Paid for 8 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 8 items, received only 3; paneer missing",ok
+T0290,C02176,2026-05-03T17:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0291,C00697,2026-06-22T16:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0292,C02539,2026-04-22T15:00:00,"UPI money debited twice for order, please refund. !!!",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0293,C03739,2026-05-18T00:00:00,"Love the app, fastest groceries in Bengaluru.",praise,positive,1,Loves app; fastest groceries in Bengaluru,ok
+T0294,C01889,2026-05-09T07:00:00,Charged Rs 303 but app shows Rs 255. Fix this.,payment_refund,negative,4,Charged Rs 303 but app shows Rs 255; refund needed,ok
+T0295,C02732,2026-06-15T16:00:00,"Login OTP never arrives, tried 5 times. Also why is delivery in pune so slow now? waited 50 minutes for milk.",app_bug,negative,3,OTP not received after multiple attempts; delivery slow in Pune,ok
+T0296,C02776,2026-04-26T20:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0297,C02407,2026-05-01T17:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing !!! Also rider was very polite and helped with heavy bags. 5 stars.",missing_item,negative,3,"Wrong butter brand, half order missing; rider was polite and helpful",ok
+T0298,C02828,2026-06-03T18:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0299,C00816,2026-04-09T20:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0300,C01563,2026-06-18T20:00:00,Refund for cancelled order still not received after third days. pls jaldi karo,payment_refund,negative,4,Refund not received after three days for cancelled order,ok
+T0301,C02865,2026-06-14T02:00:00,Why is delivery in Pune so slow now? Waited 73 minutes for milk.,late_delivery,negative,3,Delivery in Pune took 73 minutes; milk arrived late,ok
+T0302,C00034,2026-04-17T14:00:00,Milk packet was expired by 2 days. Very disappointed. yaar kya chal raha hai,quality,negative,4,Expired milk packet by 2 days; customer disappointed,ok
+T0303,C03730,2026-04-12T20:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0304,C03412,2026-06-04T12:00:00,"Love the app, fastest groceries in Bengaluru.",praise,positive,1,Loves app; fastest groceries in Bengaluru,ok
+T0305,C00898,2026-06-10T06:00:00,Rider was very polite and helped with heavy bags. 5 stars. Also refund for cancelled order still not received after second days.,praise,positive,1,Polite rider helped with bags; refund pending for cancelled order,ok
+T0306,C02777,2026-04-12T09:00:00,"Delivery was super late today, groceries arrived after 66 mins.",late_delivery,negative,3,Delivery 66 minutes late,ok
+T0307,C02574,2026-05-21T14:00:00,Charged Rs 454 but app shows Rs 272. Fix this.,payment_refund,negative,4,Charged Rs 454 but app shows Rs 272; request correction,ok
+T0308,C03231,2026-04-29T15:00:00,Paid for 9 items but only got 4. The paneer is missing. yaar kya chal raha hai,missing_item,negative,4,"Paid for 9 items, received only 4; paneer missing",ok
+T0309,C01495,2026-05-10T03:00:00,"rider was lost and called me 3 times, order came 85 min late",late_delivery,negative,3,Rider got lost; order arrived 85 minutes late,ok
+T0310,C03726,2026-04-24T15:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0311,C00720,2026-06-08T22:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0312,C02175,2026-04-12T17:00:00,"Vegetables were rotten, tomatoes completely squashed. yaar kya chal raha hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0313,C01053,2026-04-10T05:00:00,Charged Rs 753 but app shows Rs 240. Fix this.,payment_refund,negative,4,Charged Rs 753 while app shows Rs 240; need correction,ok
+T0314,C01919,2026-05-16T16:00:00,"rider was lost and called me 3 times, order came 83 min late Also paid for 6 items but only got 3. the paneer is missing.",late_delivery,negative,3,"Rider lost, order 83 min late; only 3 of 6 items received, paneer missing",ok
+T0315,C03524,2026-05-20T13:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0316,C01499,2026-05-26T13:00:00,"Love the app, fastest groceries in Bengaluru. 😡",praise,positive,1,Loves app and fast groceries in Bengaluru,ok
+T0317,C02198,2026-06-05T13:00:00,"My order took 67 minutes, you promised 15. This is the third time this week. yaar kya chal raha hai",late_delivery,negative,4,Order took 67 mins vs 15 promised; third time this week,ok
+T0318,C02756,2026-04-19T22:00:00,"Delivery in 9 minutes, amazing service! Thank you.",praise,positive,1,Fast 9‑minute delivery; customer thanks team,ok
+T0319,C02395,2026-05-22T05:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0320,C00444,2026-05-20T15:00:00,Refund for cancelled order still not received after 4th days.,payment_refund,negative,4,Refund for cancelled order not received after four days,ok
+T0321,C02538,2026-06-03T01:00:00,"Delivery was super late today, groceries arrived after 73 mins.",late_delivery,negative,3,Delivery 73 minutes late,ok
+T0322,C02653,2026-06-03T01:00:00,Why is delivery in Surat so slow now? Waited 64 minutes for milk.,late_delivery,negative,3,Delivery in Surat took 64 minutes; slow service,ok
+T0323,C03725,2026-04-23T17:00:00,Paid for 6 items but only got 2. The paneer is missing.,missing_item,negative,3,"Paid for 6 items, received only 2; paneer missing",ok
+T0324,C00478,2026-05-30T23:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0325,C02018,2026-05-04T19:00:00,"Vegetables were rotten, tomatoes completely squashed. yaar kya chal raha hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0326,C00556,2026-06-23T00:00:00,"Vegetables were rotten, tomatoes completely squashed. 😡",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0327,C02747,2026-06-02T06:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0328,C01717,2026-06-14T03:00:00,"Love the app, fastest groceries in Jaipur.",praise,positive,1,Loves app; fastest groceries in Jaipur,ok
+T0329,C01672,2026-06-12T17:00:00,"Delivery was super late today, groceries arrived after 62 mins. !!! Also bread was mouldy. not acceptable.",late_delivery,negative,4,Delivery 62 mins late; bread was mouldy,ok
+T0330,C00890,2026-05-04T17:00:00,Why is delivery in Pune so slow now? Waited 82 minutes for milk.,late_delivery,negative,3,Delivery in Pune took 82 minutes; milk arrived late,ok
+T0331,C03504,2026-04-10T16:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0332,C02231,2026-06-24T16:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0333,C01131,2026-05-10T10:00:00,Why is delivery in Bengaluru so slow now? Waited 44 minutes for milk.,late_delivery,negative,3,Delivery in Bengaluru 44 minutes late for milk,ok
+T0334,C02715,2026-06-26T12:00:00,"Vegetables were rotten, tomatoes completely squashed. bahut bekar service hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0335,C03978,2026-05-15T11:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0336,C00998,2026-06-10T06:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0337,C03399,2026-06-23T12:00:00,App crashes when I open cart on version 5.3.1. bahut bekar service hai,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0338,C00885,2026-06-14T07:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0339,C00012,2026-04-22T21:00:00,App crashes when I open cart on version 5.3.1. 😡,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0340,C02213,2026-06-24T20:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0341,C02708,2026-06-17T01:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0342,C03236,2026-06-27T10:00:00,"Vegetables were rotten, tomatoes completely squashed. yaar kya chal raha hai",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0343,C00065,2026-05-20T20:00:00,"Delivery was super late today, groceries arrived after 38 mins.",late_delivery,negative,3,Delivery 38 mins late,ok
+T0344,C03039,2026-05-10T08:00:00,Paid for 7 items but only got 4. The paneer is missing. pls jaldi karo,missing_item,negative,4,"Paid for 7 items, received 4; paneer missing",ok
+T0345,C03055,2026-06-06T23:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0346,C02103,2026-06-24T14:00:00,App crashes when I open cart on version 5.3.1. yaar kya chal raha hai,app_bug,negative,3,App crashes when opening cart on version 5.3.1,ok
+T0347,C00908,2026-04-22T21:00:00,Bread was mouldy. Not acceptable. Also charged rs 500 but app shows rs 200. fix this.,quality,negative,4,Mouldy bread; charged Rs 500 but app shows Rs 200,ok
+T0348,C01877,2026-05-23T02:00:00,"Login OTP never arrives, tried 5 times. Also milk packet was expired by 2 days. very disappointed.",app_bug,negative,5,OTP not received after 5 attempts; expired milk also found,ok
+T0349,C03471,2026-05-24T06:00:00,"My order took 51 minutes, you promised 15. This is the second time this week.",late_delivery,negative,4,Order took 51 mins vs promised 15; second time this week,ok
+T0350,C02918,2026-05-02T00:00:00,"rider was lost and called me 3 times, order came 71 min late !!!",late_delivery,negative,3,"Rider got lost, called thrice; order arrived 71 minutes late",ok
+T0351,C01320,2026-06-15T17:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0352,C00517,2026-06-13T05:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0353,C02247,2026-04-23T20:00:00,Why is delivery in Jaipur so slow now? Waited 39 minutes for milk.,late_delivery,negative,3,Delivery in Jaipur slow; waited 39 minutes for milk,ok
+T0354,C01208,2026-05-15T05:00:00,Why is delivery in Jaipur so slow now? Waited 59 minutes for milk. 😡,late_delivery,negative,3,Delivery in Jaipur took 59 minutes; milk arrived late,ok
+T0355,C01763,2026-04-13T12:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0356,C03494,2026-05-25T14:00:00,"My order took 57 minutes, you promised 15. This is the 4th time this week.",late_delivery,negative,4,Order took 57 mins vs promised 15; fourth time this week,ok
+T0357,C03638,2026-06-02T17:00:00,"Delivery was super late today, groceries arrived after 62 mins.",late_delivery,negative,3,Delivery 62 minutes late,ok
+T0358,C01634,2026-05-13T14:00:00,"Delivery was super late today, groceries arrived after 49 mins. !!!",late_delivery,negative,3,Delivery 49 minutes late,ok
+T0359,C01281,2026-04-25T06:00:00,Refund for cancelled order still not received after 4th days.,payment_refund,negative,4,Refund for cancelled order not received after four days,ok
+T0360,C01534,2026-06-08T17:00:00,"rider was lost and called me 3 times, order came 42 min late",late_delivery,negative,3,Rider got lost; order arrived 42 min late,ok
+T0361,C00374,2026-06-05T02:00:00,"Delivery in 9 minutes, amazing service! Thank you. Also vegetables were rotten, tomatoes completely squashed.",praise,positive,1,"Fast 9‑minute delivery praised; vegetables rotten, tomatoes squashed",ok
+T0362,C00396,2026-04-30T03:00:00,Paid for 6 items but only got 3. The paneer is missing.,missing_item,negative,4,"Paid for 6 items, received only 3; paneer missing",ok
+T0363,C02279,2026-06-23T02:00:00,"Login OTP never arrives, tried 5 times. pls jaldi karo",app_bug,negative,5,OTP not received after multiple attempts; login blocked,ok
+T0364,C02301,2026-04-22T06:00:00,"My order took 76 minutes, you promised 15. This is the 4th time this week.",late_delivery,negative,4,Order took 76 mins vs promised 15; fourth time this week,ok
+T0365,C01683,2026-05-08T12:00:00,Why is delivery in Ahmedabad so slow now? Waited 76 minutes for milk.,late_delivery,negative,3,Delivery in Ahmedabad took 76 minutes; slow service,ok
+T0366,C03556,2026-06-04T07:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0367,C02460,2026-05-31T18:00:00,"Got wrong item, ordered Amul butter received some other brand and half the order missing",missing_item,negative,3,Received wrong butter brand; half the order missing,ok
+T0368,C02368,2026-04-30T12:00:00,Item missing from my bag - eggs were not delivered but charged.,missing_item,negative,4,Eggs missing from order; still charged,ok
+T0369,C00919,2026-04-13T04:00:00,"Delivery was super late today, groceries arrived after 71 mins.",late_delivery,negative,3,Delivery 71 minutes late,ok
+T0370,C01506,2026-05-05T07:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0371,C00927,2026-05-06T09:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0372,C02514,2026-05-21T01:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0373,C00739,2026-06-23T03:00:00,"My order took 70 minutes, you promised 15. This is the 4th time this week. bahut bekar service hai",late_delivery,negative,4,Order took 70 mins vs 15 promised; fourth time this week,ok
+T0374,C01438,2026-05-04T15:00:00,Rider was very polite and helped with heavy bags. 5 stars. yaar kya chal raha hai,praise,positive,1,"Rider polite, helped with heavy bags; 5 stars",ok
+T0375,C02320,2026-04-29T09:00:00,"UPI money debited twice for order, please refund.",payment_refund,negative,4,UPI debited twice for order; refund requested,ok
+T0376,C00582,2026-06-22T09:00:00,Charged Rs 423 but app shows Rs 146. Fix this.,payment_refund,negative,4,Charged Rs 423 but app shows Rs 146; request correction,ok
+T0377,C00376,2026-05-24T03:00:00,Charged Rs 623 but app shows Rs 171. Fix this.,payment_refund,negative,4,Charged Rs 623 but app shows Rs 171; request correction,ok
+T0378,C01859,2026-04-11T09:00:00,"Delivery was super late today, groceries arrived after 68 mins.",late_delivery,negative,3,Delivery 68 minutes late,ok
+T0379,C02956,2026-06-12T01:00:00,Milk packet was expired by 2 days. Very disappointed. yaar kya chal raha hai,quality,negative,4,Expired milk packet by 2 days; customer disappointed,ok
+T0380,C00348,2026-05-27T07:00:00,"Cannot apply coupon, it keeps spinning.",app_bug,negative,2,Coupon cannot be applied; spinner keeps loading,ok
+T0381,C03091,2026-04-16T06:00:00,Paid for 7 items but only got 4. The paneer is missing.,missing_item,negative,3,"Paid for 7 items, received 4; paneer missing",ok
+T0382,C02712,2026-05-20T04:00:00,"My order took 49 minutes, you promised 15. This is the 4th time this week. yaar kya chal raha hai Also item missing from my bag - eggs were not delivered but charged.",late_delivery,negative,4,Order 49 mins vs 15 promised; eggs missing and charged,ok
+T0383,C01697,2026-06-11T05:00:00,"rider was lost and called me 3 times, order came 83 min late !!!",late_delivery,negative,3,Rider got lost; order arrived 83 minutes late,ok
+T0384,C00467,2026-05-29T14:00:00,Milk packet was expired by 2 days. Very disappointed.,quality,negative,4,Expired milk packet; very disappointed,ok
+T0385,C01161,2026-06-19T01:00:00,Refund for cancelled order still not received after third days.,payment_refund,negative,5,Refund not received after three days for cancelled order,ok
+T0386,C01994,2026-05-14T15:00:00,"Love the app, fastest groceries in Jaipur.",praise,positive,1,Loves app; fastest groceries in Jaipur,ok
+T0387,C02455,2026-06-23T18:00:00,Why is delivery in Surat so slow now? Waited 36 minutes for milk. !!!,late_delivery,negative,3,Delivery in Surat took 36 minutes; slower than expected,ok
+T0388,C03873,2026-06-21T05:00:00,"My order took 39 minutes, you promised 15. This is the second time this week. yaar kya chal raha hai",late_delivery,negative,4,Order took 39 mins vs promised 15; second time this week,ok
+T0389,C01186,2026-04-28T22:00:00,"Vegetables were rotten, tomatoes completely squashed.",quality,negative,4,Rotten vegetables; tomatoes squashed,ok
+T0390,C03060,2026-04-12T03:00:00,Why is delivery in Ahmedabad so slow now? Waited 83 minutes for milk. !!!,late_delivery,negative,3,Delivery in Ahmedabad took 83 minutes; slow service,ok
+T0391,C01558,2026-05-18T23:00:00,Refund for cancelled order still not received after second days.,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0392,C02050,2026-06-13T12:00:00,Charged Rs 646 but app shows Rs 126. Fix this.,payment_refund,negative,4,Charged Rs 646 but app shows Rs 126; request correction,ok
+T0393,C00296,2026-04-20T18:00:00,Bread was mouldy. Not acceptable.,quality,negative,4,Mouldy bread; not acceptable,ok
+T0394,C01787,2026-06-28T20:00:00,Rider was very polite and helped with heavy bags. 5 stars.,praise,positive,1,"Rider polite, helped with heavy bags; 5-star service",ok
+T0395,C01759,2026-04-22T00:00:00,"Vegetables were rotten, tomatoes completely squashed. yaar kya chal raha hai Also login otp never arrives, tried 5 times.",quality,negative,4,"Rotten vegetables, squashed tomatoes; OTP not received for login",ok
+T0396,C01186,2026-05-04T12:00:00,"Login OTP never arrives, tried 5 times.",app_bug,negative,5,Login OTP never arrives after multiple attempts,ok
+T0397,C03958,2026-04-12T08:00:00,"My order took 43 minutes, you promised 15. This is the third time this week.",late_delivery,negative,4,Order took 43 mins vs promised 15; third occurrence this week,ok
+T0398,C03768,2026-06-09T23:00:00,"Refund for cancelled order still not received after second days. !!! Also got wrong item, ordered amul butter received some other brand and half the order missing",payment_refund,negative,4,Refund pending for cancelled order; also received wrong butter and missing items,ok
+T0399,C00997,2026-04-15T13:00:00,Refund for cancelled order still not received after second days. bahut bekar service hai,payment_refund,negative,5,Refund not received after two days for cancelled order,ok
+T0400,C00323,2026-04-24T16:00:00,Refund for cancelled order still not received after 4th days. Also bread was mouldy. not acceptable.,payment_refund,negative,4,Refund pending for cancelled order; bread was mouldy,ok
