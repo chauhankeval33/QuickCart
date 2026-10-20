@@ -1,122 +1,110 @@
-# QuickCart Assessment Report
+# QuickCart Data Science Assessment Report
 
-**Candidate:** Keval Chauhan  
-**Project:** QuickCart Data Analytics and AI Assessment
+**Candidate:** Keval Chauhan | **Repository:** [QuickCart](https://github.com/chauhankeval33/QuickCart)
 
-## Part A — SQL Analysis
+## Part A — SQL (12 points)
 
-SQL is used to extract, filter, aggregate, and analyze order and customer data. The queries in this project are intended to identify business trends, customer behavior, order performance, and operational bottlenecks.
+**Written answer — Performance and indexing:** Queries involving full-table scans, `DISTINCT`, large aggregations, window functions, and customer-level cohort calculations may become expensive at 100 million rows. I would inspect query plans using `EXPLAIN QUERY PLAN`, add indexes on frequently filtered or joined columns such as `orders(customer_id)`, `orders(order_ts)`, and `orders(status)`, and validate whether composite indexes improve the actual queries. Indexes should be chosen based on query patterns because they increase storage and write costs.
 
-**Approach and next steps:**
-- Use joins to combine relevant order, customer, store, and delivery tables.
-- Apply `WHERE`, `GROUP BY`, aggregate functions, and `HAVING` to answer business questions.
-- Use CTEs and window functions where ranking, running totals, or comparisons between records are required.
-- Validate the results against the underlying data and document the business interpretation of each query.
+**Remaining work:** Execute all six SQLite queries, include their result tables, and document data-audit counts, city cleanup, monthly GMV growth, top customers, cohort retention, and delivery time by hour.
 
-**Status:** Final query outputs and validated numerical findings should be added after running and checking all SQL tasks.
+## Part B — MongoDB (8 points)
 
-## Part B — MongoDB Analysis
+**Written answer — MongoDB versus PostgreSQL:** MongoDB is useful for nested, semi-structured documents such as app sessions containing device information and arrays of events. It supports flexible document structures and aggregation pipelines. PostgreSQL is generally preferable for highly relational data, transactions, strict schemas, and queries requiring complex joins and strong relational constraints. The choice depends on access patterns, consistency requirements, and operational needs.
 
-MongoDB is suitable for analyzing semi-structured order and customer documents. Aggregation pipelines can filter records, group them, calculate summary statistics, and sort the results.
+**Index:** For customer session lookups over a date range, I would test a compound index on `{customer_id: 1, session_start: -1}` and compare query execution statistics before and after using `explain("executionStats")`.
 
-**Approach and next steps:**
-- Use `$match` to filter relevant documents.
-- Use `$group` with operators such as `$sum` and `$avg` to calculate business metrics.
-- Use `$project` to select and transform fields and `$sort` to rank results.
-- Validate aggregation results against equivalent SQL results where the underlying data and definitions match.
+**Remaining work:** Run all five aggregation tasks, report funnel conversion rates and app-version comparisons, and capture actual before/after query plans.
 
-**Status:** Run and verify each MongoDB query, then add the relevant outputs and business conclusions.
+## Part C — EDA and Feature Engineering (14 points)
 
-## Part C — Exploratory Data Analysis (EDA)
-
-The analysis examined relationships between delivery time and selected operational factors.
+### Delivery-time findings
 
 | Factor | Group 1 | Group 2 | Difference |
 |---|---:|---:|---:|
-| Delivery distance | 0–2 km: 20.24 min | Above 5 km: 36.27 min | 16.03 min |
-| Open-order workload | 1–10 orders: 20.69 min | 21–29 orders: 27.56 min | 6.87 min |
+| Distance | 0–2 km: 20.24 min | Above 5 km: 36.27 min | 16.03 min |
+| Open orders | 1–10: 20.69 min | 21–29: 27.56 min | 6.87 min |
 | Weather | Non-rainy: 23.69 min | Rainy: 30.30 min | 6.61 min |
 
-**Key findings:**
-1. Orders traveling more than 5 km had a higher average delivery time than orders traveling 0–2 km.
-2. Higher open-order workload was associated with longer average delivery times.
-3. Average delivery time was higher during rainy conditions than during non-rainy conditions.
+Longer distances, greater store workload, and rainy conditions were associated with longer average delivery times. These are observational comparisons, not proof of causation. Sample sizes, outliers, city differences, and other confounders should be checked.
 
-These results show associations, not proof of causation. Other factors, including traffic, store preparation time, location, and staffing, may also affect delivery performance.
+**Feature leakage — written answer:** Recency, frequency, spend, discount share, cancellation rate, rain exposure, and average delivery time can leak future information if calculated using orders after the prediction cutoff. I would filter orders to timestamps on or before 30 June 2026 before calculating customer features, and calculate tenure relative to that cutoff. The churn label uses behavior in the following 60 days and must remain the target, not an input feature. I would verify leakage by comparing candidate features with their source records and confirming that no post-cutoff records contribute.
 
-**Next steps:** Analyze these relationships by store, time period, and order volume. Check sample sizes and distributions, investigate outliers, and use appropriate statistical tests before drawing stronger conclusions.
+**Remaining work:** Document all data-quality issues, their counts and treatments; include exactly five charts with one business finding each; and compare vectorized recency computation with a loop using `%timeit`.
 
-## Part D — Regression Analysis
+## Part D — Delivery-Time Regression (12 points)
 
-Regression can help estimate a continuous business outcome, such as delivery time, using relevant order and operational features.
+**Written answer — Promised delivery time:** I would not promise the predicted mean as a guaranteed delivery time because individual delivery times vary and some orders take longer than average. I would estimate a calibrated upper prediction quantile or prediction interval and choose a service level, such as the 90th percentile, based on the business trade-off between reliability and customer expectations. Calibration should be checked on held-out data.
 
-**Approach and next steps:**
-- Define the target variable and identify features available at prediction time.
-- Split the data into training and test sets, avoiding leakage between them.
-- Establish a baseline model and compare it with suitable regression algorithms.
-- Evaluate performance using MAE and RMSE; use additional metrics if appropriate for the business objective.
-- Inspect residuals and errors to identify groups where predictions are less accurate.
+**Remaining work:** Report mean-baseline and linear-regression MAE/RMSE; compare Ridge, Lasso, and a tree-based model; tune regularization with five-fold cross-validation; identify coefficients driven to zero by Lasso; quantify rain and distance effects; and analyze residuals. Use only features available when the order is placed.
 
-**Status:** Add the selected model, test-set metrics, and interpretation after completing and validating the regression experiments.
+## Part E — Churn Classification (18 points)
 
-## Part E — Customer Churn Classification
+**Written answer — Monitoring a monthly model:** I would monitor feature and prediction drift, missing values, churn prevalence, probability calibration, and performance metrics such as ROC-AUC, PR-AUC, precision, and recall once actual churn labels become available. I would compare these metrics with a validated baseline and investigate changes by city and customer segment. Because labels arrive after the prediction period, I would account for label delay and avoid treating unlabelled predictions as confirmed errors. Retraining would follow predefined performance or drift thresholds, followed by validation before deployment.
 
-Churn classification estimates whether a customer is likely to stop using a service. Model evaluation should consider the business cost of missed churners as well as overall accuracy.
+**Remaining work:** Quantify leakage with evidence, report churn rate and the limitations of accuracy under class imbalance, compare all four required models on the same stratified split, tune the best model for at least 20 trials, maximize test-set retention profit using the ₹150 offer cost and ₹1,200 saved-customer value, and report feature importance and model metrics.
 
-**Approach and next steps:**
-- Inspect the target distribution and preprocess numeric and categorical features.
-- Establish a baseline and compare suitable classification models.
-- Evaluate precision, recall, F1-score, confusion matrix, and ROC-AUC where appropriate.
-- Select the classification threshold based on the business objective rather than accuracy alone.
-- Check for data leakage and evaluate the final model on unseen data.
+## Part F — Deep Learning (8 points)
 
-**Status:** Add the validated test-set results, selected threshold, and business recommendations after running the final experiments.
+**Backpropagation:** Backpropagation calculates how much each model parameter contributes to prediction error by propagating gradients from the output layer back through the network. An optimizer uses these gradients to update the parameters and reduce the loss.
 
-## Part F — Neural Network
+**Activation function:** ReLU is a common hidden-layer activation because it introduces nonlinearity and is computationally efficient. A sigmoid output is suitable for binary churn classification when producing a probability.
 
-A neural network can learn nonlinear patterns from appropriately prepared data. Its usefulness should be assessed against simpler baseline models.
+**Overfitting:** If training loss decreases while validation loss rises, I would use early stopping, review dropout or weight decay, and check data leakage and the train/validation split. I would select the checkpoint with the best validation performance.
 
-**Approach and next steps:**
-- Prepare the features and target, applying suitable encoding and scaling.
-- Train a baseline neural network with a suitable output layer and loss function.
-- Monitor validation performance and use early stopping or regularization to reduce overfitting.
-- Compare test-set performance with the relevant baseline model.
+**Remaining work:** Report the neural network's ROC-AUC and PR-AUC beside the best Part E model, plot training and validation loss, and justify which model to deploy based on performance, reliability, and operational complexity.
 
-**Status:** Report the final architecture, training configuration, and evaluation metrics once the experiment is complete.
+## Part G — LLM Ticket Triage (12 points)
 
-## Part G — LLM-Based Support Ticket Triage
+### Reported evaluation
 
-The LLM workflow classifies support tickets into business categories. The evaluation compared two prompt versions and a traditional machine-learning baseline.
-
-**Results:**
-
-| Method | Evaluation result | Failed calls |
-|---|---:|---:|
-| Prompt v1 | 59/60 correct (98.3%) | 0 |
-| Prompt v2 | 60/60 correct (100%) | 0 |
-| TF-IDF + Logistic Regression | 78.3% five-fold cross-validation accuracy | Not applicable |
-
-The evaluation script processed 42 unique tickets per prompt, despite reporting 60 evaluation rows. This discrepancy should be investigated before treating the results as a fully verified comparison. The cross-validation result is also not directly comparable to the separate 60-row prompt evaluation.
-
-**Batch execution results:**
-- Tickets processed: 400
-- Failed tickets: 0
-- API calls: 222
-- Total runtime: approximately 14.5 minutes
-- Retries for invalid output: 0
-- API errors or rate limits: 0
-- Tokens: 187,545 input and 44,226 output
-- Reported cost: $0 on the free tier
-
-**Category distribution:**
-
-| Category | Tickets |
+| Method | Reported result |
 |---|---:|
-| late_delivery | 111 |
-| missing_item | 84 |
-| payment_refund | 54 |
-| quality | 53 |
-| app_bug | 50 |
-| praise | 48 |
-| **Total** | **400** |
+| Prompt v1 | 59/60 correct (98.3%) |
+| Prompt v2 | 60/60 correct (100%) |
+| TF-IDF + Logistic Regression | 78.3% five-fold cross-validation accuracy |
+
+The evaluation script processed only 42 unique tickets per prompt despite reporting 60 evaluation rows. Therefore, these accuracy figures require verification before being treated as a definitive comparison. The cross-validation result is not directly comparable to the separate prompt evaluation.
+
+**Batch run:** 400 tickets processed; 0 failed tickets; 222 API calls; approximately 867 seconds; 0 invalid-output retries; 0 API errors or rate limits; 187,545 input tokens and 44,226 output tokens. Reported cost was $0 on the free tier.
+
+**Category counts:** late_delivery 111; missing_item 84; payment_refund 54; quality 53; app_bug 50; praise 48.
+
+**Written answer — Two failure modes and safeguards:**
+
+1. **Invalid or fabricated outputs:** An LLM may return malformed JSON, an unsupported category, or an urgency outside the allowed range. Use schema validation, retries with limits, and a safe fallback or manual-review queue.
+2. **Ambiguous or mixed complaints:** Hinglish or tickets describing multiple issues may be assigned the wrong category or urgency. Define category precedence, test multilingual and multi-issue examples, and manually review uncertain cases.
+
+Accuracy on 60 examples cannot establish reliability across all languages, rare cases, changing ticket patterns, or production conditions.
+
+**Remaining work:** Resolve the unique-ticket discrepancy, verify both confusion matrices against the 60 labelled tickets, report category-level metrics, and evaluate on an independent labelled set.
+
+## Part H — Streamlit and Power BI (10 points)
+
+The Streamlit application is intended to provide three workflows: delivery-time estimation, customer churn scoring, and support-ticket triage. Inputs should be validated, models loaded with `st.cache_resource`, and secrets stored in Streamlit secrets rather than source code.
+
+**Example DAX measure — Repeat-customer rate:**
+
+```dax
+Repeat Customer Rate =
+DIVIDE(
+    CALCULATE(
+        DISTINCTCOUNT(Orders[customer_id]),
+        FILTER(
+            VALUES(Orders[customer_id]),
+            CALCULATE(DISTINCTCOUNT(Orders[order_id])) > 1
+        )
+    ),
+    DISTINCTCOUNT(Orders[customer_id]),
+    0
+)
+```
+
+This measure calculates the share of customers with more than one distinct order in the current filter context. The result depends on the selected date range and report filters.
+
+**Remaining work:** Validate the delivery estimator and churn scorer against the trained models; test invalid inputs and downloads; verify the ticket-triage output; and complete the Power BI KPI cards, monthly GMV trend, city/hour delivery matrix, city slicer, and DAX measure. Submit both the `.pbix` file and PDF export.
+
+## Part I — Git and Submission (6 points)
+
+The public repository is [github.com/chauhankeval33/QuickCart](https://github.com/chauhankeval33/QuickCart). Changes have been pushed to the `main` branch.
 
